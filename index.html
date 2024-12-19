@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Minha primeira página web com HTML e CSS">
+    <title>Minha Página Web</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS para centralizar a imagem */
+        .imagem-centralizada {
+            text-align: center; /* Centraliza a imagem dentro do contêiner */
+        }
+
+        .imagem-centralizada img {
+            max-width: 100%; /* Impede que a imagem ultrapasse a largura da tela */
+            height: auto;    /* Mantém a proporção da imagem */
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Bem-vindo à Minha Página</h1>
+        <nav aria-label="Menu principal">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Conteúdo Principal -->
+    <main>
+        <section id="inicio">
+            <h2>Início</h2>
+            <p>Bem-vindo à minha página! Aqui compartilho meu aprendizado com HTML e CSS.</p>
+            <img src="" alt="">
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Este é o meu primeiro site criado utilizando HTML e CSS, como parte do meu aprendizado em desenvolvimento web.</p>
+            <!-- Div que centraliza a imagem -->
+            <div class="imagem-centralizada">
+                <img src="https://th.bing.com/th/id/OIP.TCjjX4zOSvgZrGWODbbFmgHaFj?rs=1&pid=ImgDetMain" alt="Imagem sobre mim" width="1200" height="300">
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Você pode me encontrar em breve nas redes sociais. Enquanto isso, aproveite este conteúdo!</p>
+        </section>
+    </main>
+    
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 Minha Página. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
